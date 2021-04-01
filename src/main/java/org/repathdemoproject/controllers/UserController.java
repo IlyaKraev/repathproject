@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 import static java.util.Objects.isNull;
 
-// The requested endpoints, packaged neatly in a REST controller
 @RestController
 @RequestMapping(value = "api/user")
 public class UserController {

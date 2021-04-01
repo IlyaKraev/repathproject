@@ -2,7 +2,6 @@ package org.repathdemoproject.entities;
 
 import javax.persistence.*;
 
-// The hibernate entity for User
 @Entity
 @Table(name="users")
 public class User {
